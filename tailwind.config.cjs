@@ -1,5 +1,7 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js, jsx, ts, tsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  mode: "jit",
   theme: {
     fontFamily: {
       primary: "Open Sans",
@@ -15,7 +17,7 @@ module.exports = {
       sm: "640px",
       md: "768px",
       lg: "1024px",
-      xk: "1170px",
+      xl: "1170px",
     },
     extend: {
       colors: {
@@ -28,6 +30,12 @@ module.exports = {
           secondary_hover: "#E350A9",
           tertiary: "#68C9BA",
         },
+      },
+      backgroundImage: {
+        hero: "url('../src/assets/img/hero_bg.png')",
+      },
+      dropShadow: {
+        primary: " 0px 5px 5px rgba(75, 93, 104, 0.1)",
       },
     },
   },

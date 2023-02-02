@@ -13,3 +13,18 @@ import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
 import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
 import LogoV2 from "../src/assets/img/logo-v2.png";
 import HeroImage from "../src/assets/img/hero-img.png";
+
+export const heroData = {
+  title: ` Order Products Faster Easier`,
+  subtitle:
+    "Order your favorite foods at any time and we will deliver them right to where you are.",
+  btnText: "Get Started",
+  image: HeroImage,
+};
+
+export const aboutData = {
+  image: AboutImg,
+  title: "Find Out A Little More About Us",
+  subtitle:
+    "We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.",
+};
