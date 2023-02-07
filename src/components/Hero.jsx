@@ -18,6 +18,7 @@ const Hero = () => {
           <div className="text-center xl:text-left xl:absolute">
             <h1
               className="h1 xl:max-w-[700px] mb-6 lg:mb-12"
+              // анимация
               data-aos="fade-down"
               data-aos-delay="400"
             >
@@ -25,6 +26,7 @@ const Hero = () => {
             </h1>
             <p
               className="lead xl:max-w-[380px] mb-6 lg:mb-12"
+              // анимация
               data-aos="fade-down"
               data-aos-delay="500"
             >
@@ -32,6 +34,7 @@ const Hero = () => {
             </p>
             <button
               className="btn btn-primary mb-8 xl:mb:0"
+              // анимация
               data-aos="fade-down"
               data-aos-delay="600"
             >
@@ -41,6 +44,7 @@ const Hero = () => {
           {/* img */}
           <div
             className="xl:absolute xl:-right-12 xl:bottom-16"
+            // анимация
             data-aos="fade-down"
             data-aos-delay="700"
           >

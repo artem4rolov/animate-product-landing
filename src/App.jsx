@@ -29,6 +29,7 @@ const App = () => {
   return (
     <div className="overflow-hidden">
       <Hero />
+      <About />
     </div>
   );
 };

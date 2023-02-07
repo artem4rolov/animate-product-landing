@@ -14,6 +14,25 @@ import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";
 import LogoV2 from "../src/assets/img/logo-v2.png";
 import HeroImage from "../src/assets/img/hero-img.png";
 
+export const navigationData = [
+  {
+    name: "Deliver",
+    href: "#",
+  },
+  {
+    name: "About",
+    href: "#",
+  },
+  {
+    name: "Features",
+    href: "#",
+  },
+  {
+    name: "Signup",
+    href: "#",
+  },
+];
+
 export const heroData = {
   title: ` Order Products Faster Easier`,
   subtitle:
