@@ -30,6 +30,10 @@ const App = () => {
     <div className="overflow-hidden">
       <Hero />
       <About />
+      <Features />
+      <Testimonials />
+      <CtaSection />
+      <Footer />
     </div>
   );
 };
