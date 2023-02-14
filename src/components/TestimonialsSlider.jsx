@@ -28,18 +28,20 @@ const TestimonialsSlider = () => {
         return (
           <SwiperSlide
             key={index}
-            className="bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[330px] pt-[30px] pl-[40px] xl:px-[70px] pb-[30px] flex items-start gap-x-[30px] shadow-xl"
+            className="bg-white rounded-[20px] border border-accent-primary max-w-[350px] xl:max-w-[645px] max-h-[330px] pt-[30px] xl:px-[70px] pb-[30px] flex items-start gap-x-[30px] shadow-xl"
           >
             {/* users Avatar */}
-            <img src={image} alt="" />
+            <div className="flex justify-center">
+              <img src={image} alt="" />
+            </div>
 
             {/* text */}
-            <div>
+            <div className="text-center">
               <div className="text-lg text-primary font-bold">{name}</div>
               <div className="mb-4 font-semibold test-accent-primary">
                 {web}
               </div>
-              <p className="max-w-[300px]">{message}</p>
+              <p className="">{message}</p>
             </div>
           </SwiperSlide>
         );

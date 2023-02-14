@@ -7,6 +7,7 @@ const About = () => {
 
   return (
     <section
+      id="deliver"
       className="my-[30px] xl:mt-[100px]"
       data-aos="fade-up"
       data-aos-offset="350"

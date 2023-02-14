@@ -34,6 +34,7 @@ const App = () => {
       <Testimonials />
       <CtaSection />
       <Footer />
+      <Copyright />
     </div>
   );
 };
